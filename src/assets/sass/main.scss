@@ -1433,11 +1433,13 @@
 						line-height: 3em;
 					}
 				}
-				> img {
-					height: 158px;
-					width: 241px;
-				}
 			}
+		}
+		> img {
+			height: 198px;
+			width: 281px;
+			bottom: 0;
+			position: fixed;
 		}
 
 		.close {
