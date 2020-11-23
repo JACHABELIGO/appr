@@ -18,7 +18,7 @@ export default function Footer() {
       <ul className="copyright">
         <li>&copy; Appr</li>
         <li>
-          Design: <a href="http://appr.com">APPR</a>
+          Developed by: <a href="http://appr.com">APPR</a>
         </li>
       </ul>
     </footer>

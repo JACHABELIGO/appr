@@ -1831,12 +1831,13 @@
 /* Footer */
 
 	#footer {
-		@include padding(6em, 0);
+		@include padding(2em, 0);
 		background-color: darken(_palette(bg), 8);
 		text-align: center;
 
 		.icons {
 			font-size: 1.25em;
+			margin: 0;
 
 			a {
 				color: _palette(fg-light);
@@ -1854,6 +1855,7 @@
 			list-style: none;
 			padding: 0;
 			text-transform: uppercase;
+			margin: 1em;
 
 			li {
 				border-left: solid 1px _palette(fg-light);
