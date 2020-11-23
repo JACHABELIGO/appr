@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import logo from '../assets/img/logo.png';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -18,6 +19,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </a>
           <div id="menu">
             <ul>
+            <li>
+                <img src={logo}></img>
+              </li>
               <li>
                 <Link to="/">Home</Link>
               </li>
