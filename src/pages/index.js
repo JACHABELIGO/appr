@@ -48,7 +48,7 @@ const IndexPage = () => (
           </li> */}
           <li>
             <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+              <span className="label">Tiehub</span>
             </span>
           </li>
           {/* <li>
@@ -65,56 +65,47 @@ const IndexPage = () => (
         <header className="major">
           <h2>SERVICES</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Give us a problem we'll provide a solution for it.
           </p>
         </header>
         <ul className="features">
           <li className="icon solid fa-mobile">
             <h3>MOBILE DEVELOPMENT</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              We will create an impactful mobile app that fits your brand and industry within a shorter time frame.
             </p>
           </li>
           <li className="icon solid fa-laptop">
             <h3>WEB DEVELOPMENT</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Our bold design style and use of ultra-clean, standards-based markup code combine to produce websites that boast exceptional search engine result positions, increased conversions and superior visitor loyalty.
             </p>
           </li>
-          <li className="icon solid fa-consulting">
+          <li className="icon solid fa-code">
             <h3>IT CONSULTING</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Our software development team is equiped with niche skills and deep expertise to ensure your digital satisfaction.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>UI/UX DESIGN</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Build the product you need on time with an experienced team that uses clear and effective design processes.
             </p>
           </li>
           <li className="icon fa-heart">
             <h3>Digital Transformation</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Our expertise, platforms, and skills allow us to deliver superior IT transformation services tailored to stay ahead of evolving market demands.
             </p>
           </li>
-          <li className="icon fa-flag">
+          {/* <li className="icon fa-flag">
             <h3>Tortor Ut</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
