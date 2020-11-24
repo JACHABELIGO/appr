@@ -5,6 +5,9 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import config from '../../config';
+
+import ContactForm from '../components/ContactForm';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -124,24 +127,11 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
+          <h2>Contact Us</h2>
+          <p>+254*********</p>
+          <p>example@example.com</p>
         </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
+        <ContactForm />
       </div>
     </section>
   </Layout>
