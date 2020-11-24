@@ -391,8 +391,9 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background-color: _palette(border-bg);
-		border-radius: 3px;
+		border-radius: 1px;
 		border: none;
+		border-bottom-style: groove;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -918,7 +919,7 @@
 		height: 3.125em;
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 3.125em;
-		max-width: 30em;
+		max-width: 32em;
 		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
@@ -1351,7 +1352,7 @@
 		}
 
 		&.style4 {
-			background-color: transparent;
+			background-color: transparentize($color: #000000, $amount: 0.5);
 		}
 
 		&.style5 {
@@ -1637,7 +1638,7 @@
 
 		.more {
 			@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
-			@include vendor('transition-delay', '3.5s');
+			@include vendor('transition-delay', '1.5s');
 			@include vendor('transform', 'translateY(0)');
 			border: none;
 			bottom: 0;
@@ -1747,7 +1748,7 @@
 
 			.actions {
 				@include vendor('order', '2');
-				width: 30%;
+				width: 100%;
 			}
 
 			@include breakpoint('<=medium') {
