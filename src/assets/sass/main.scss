@@ -1435,6 +1435,12 @@
 				}
 			}
 		}
+		> img {
+			height: 198px;
+			width: 281px;
+			bottom: 0;
+			position: fixed;
+		}
 
 		.close {
 			background-image: url('../images/close.png');
