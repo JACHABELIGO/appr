@@ -35,29 +35,27 @@ const IndexPage = () => (
             WHO WE ARE
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            We are a software development company that provides cutting edge engineering solutions for your mobile and web application needs we will help you and your clients untangle complex issues that always emerge during your digital evolution journey.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            We started our journey in 2020 and all along our aim is to be a visionary and a reliable software engineering partner for you.
           </p>
         </header>
         <ul className="icons major">
-          <li>
+          {/* <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
             </span>
-          </li>
+          </li> */}
           <li>
             <span className="icon fa-heart major style2">
               <span className="label">Ipsum</span>
             </span>
           </li>
-          <li>
+          {/* <li>
             <span className="icon solid fa-code major style3">
               <span className="label">Dolor</span>
             </span>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
@@ -75,7 +73,7 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <li className="icon solid fa-mobile">
             <h3>MOBILE DEVELOPMENT</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
@@ -89,7 +87,7 @@ const IndexPage = () => (
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
-          <li className="icon solid fa-code">
+          <li className="icon solid fa-consulting">
             <h3>IT CONSULTING</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
@@ -97,14 +95,14 @@ const IndexPage = () => (
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>UI/UX DESIGN</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+            <h3>Digital Transformation</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.

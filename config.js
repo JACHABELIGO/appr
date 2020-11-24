@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/Appr/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'APPR',
-  subHeading: 'We Love Our Users',
+  subHeading: 'Building tomorrow\'s tools today',
   // social
   socialLinks: [
     {
