@@ -80,7 +80,7 @@ const IndexPage = () => (
         <div className="container">
             <div className="box">
               <div className="imgBox">
-                <img src={mobile}/>
+                <img src={mobile} alt="mobile development"/>
               </div>
               <div className="details">
                 <div className="content">
@@ -94,7 +94,7 @@ const IndexPage = () => (
 
             <div className="box">
               <div className="imgBox">
-                <img src={web}/>
+                <img src={web} alt="web development"/>
               </div>
               <div className="details">
                 <div className="content">
@@ -108,7 +108,7 @@ const IndexPage = () => (
 
             <div className="box">
               <div className="imgBox">
-                <img src={consult}/>
+                <img src={consult} alt="IT consulting"/>
               </div>
               <div className="details">
                 <div className="content">
@@ -122,7 +122,7 @@ const IndexPage = () => (
           
             <div className="box">
               <div className="imgBox">
-                <img src={uiux}/>
+                <img src={uiux} alt="UI/UX Design"/>
               </div>
               <div className="details">
                 <div className="content">
@@ -136,7 +136,7 @@ const IndexPage = () => (
                   
             <div className="box">
               <div className="imgBox">
-                <img src={dt}/>
+                <img src={dt} alt="digital transformation"/>
               </div>
               <div className="details">
                 <div className="content">

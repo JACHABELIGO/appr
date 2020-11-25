@@ -36,7 +36,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li>
               
             </ul>
-            <img src={logo}></img>
+            <img src={logo} alt="company logo"></img>
             <a
               className="close"
               onClick={e => {
