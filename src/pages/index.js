@@ -6,7 +6,13 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 
+
 import ContactForm from '../components/ContactForm';
+import mobile from '../assets/images/mobile.jpg'
+import web from '../assets/images/web.jpg'
+import dt from '../assets/images/dt.jpg'
+import uiux from '../assets/images/uiux.jpg'
+import consult from '../assets/images/consult.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -38,14 +44,12 @@ const IndexPage = () => (
             WHO WE ARE
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            We are a software development company that provides cutting edge engineering solutions for your mobile and web application needs we will help you and your clients untangle complex issues that always emerge during your digital evolution journey.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            We started our journey in 2020 and all along our aim is to be a visionary and a reliable software engineering partner for you.
           </p>
         </header>
-        <ul className="icons major">
+        {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
@@ -53,7 +57,7 @@ const IndexPage = () => (
           </li>
           <li>
             <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+              <span className="label">Tiehub</span>
             </span>
           </li>
           <li>
@@ -61,7 +65,7 @@ const IndexPage = () => (
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 
@@ -70,57 +74,90 @@ const IndexPage = () => (
         <header className="major">
           <h2>SERVICES</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Give us a problem we'll provide a solution for it.
           </p>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>MOBILE DEVELOPMENT</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>WEB DEVELOPMENT</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>IT CONSULTING</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
+        <div className="container">
+            <div className="box">
+              <div className="imgBox">
+                <img src={mobile}/>
+              </div>
+              <div className="details">
+                <div className="content">
+                  <h3>MOBILE DEVELOPMENT</h3>
+                  <p>
+                    We will create an impactful mobile app that fits your brand and industry within a shorter time frame.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="box">
+              <div className="imgBox">
+                <img src={web}/>
+              </div>
+              <div className="details">
+                <div className="content">
+                  <h3>WEB DEVELOPMENT</h3>
+                  <p>
+                    Our bold design style & use of standards-based markup code combine to produce websites that boast exceptional search engine result positions & superior visitor loyalty.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="box">
+              <div className="imgBox">
+                <img src={consult}/>
+              </div>
+              <div className="details">
+                <div className="content">
+                  <h3>IT CONSULTING</h3>
+                  <p>
+                    Our software development team is equiped with niche skills and deep expertise to ensure your digital satisfaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <div className="box">
+              <div className="imgBox">
+                <img src={uiux}/>
+              </div>
+              <div className="details">
+                <div className="content">
+                  <h3>UI/UX DESIGN</h3>
+                  <p>
+                    Build the product you need on time with an experienced team that uses clear and effective design processes.
+                  </p>
+                </div>
+              </div>
+            </div>
+                  
+            <div className="box">
+              <div className="imgBox">
+                <img src={dt}/>
+              </div>
+              <div className="details">
+                <div className="content">
+                  <h3>Digital Transformation</h3>
+                  <p>
+                    Our expertise, platforms, and skills allow us to deliver superior IT transformation services tailored to stay ahead of evolving market demands.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          {/* </div> */}
+          {/* <li className="box">
             <h3>Tortor Ut</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
-          </li>
-        </ul>
+          </li> */}
+          {/* </ul> */}
+          </div>
       </div>
     </section>
 
