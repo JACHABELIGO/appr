@@ -23,16 +23,13 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Services">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/Industries">Industries</Link>
+                <Link to="/company">Company</Link>
               </li>
               <li>
-                <Link to="/Clients">Clients</Link>
-              </li>
-              <li>
-                <Link to="/Company">Company</Link>
+                <Link to="/contact">Contact us</Link>
               </li>
               
             </ul>
