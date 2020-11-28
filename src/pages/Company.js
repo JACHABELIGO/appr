@@ -1,6 +1,14 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+// import lightslider from '../assets/sass/lightslider.css'
+// import slider from '../assets/sass/lightslider'
+
+import ben from '../assets/images/ben.jpeg';
+import okuro from '../assets/images/okuro.jpg';
+import linda from '../assets/images/Linda.jpg';
+import charles from '../assets/images/charles.jpg';
+import jack from '../assets/images/jack.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -16,20 +24,50 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Team</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-            tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-            quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-            Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
+          <div className="team">
+            <div className="carousel">
+              <section className="slider">
+                <p className="ben" ></p>
+                <img src={ben} alt="mwangi" className="model"/>
+                <div className="dsc">
+                  <p className="name">Ben Ruwel </p>
+                </div>
+              </section>
+              <section className="slider">
+                <p className="okuro" ></p>
+                <img src={okuro} alt="gideon" className="model" />
+                <div className="dsc">
+                  <p className="name">Gideon Okuro</p>
+                </div>
+              </section>
+              <section className="slider">
+                <p className="ben"></p>
+                <img src={linda} alt="tonui" className="model"/>
+                <div className="dsc">
+                  <p className="name">Linda Tonui</p>
+                </div>
+              </section>
+              <section className="slider">
+                <p className="ben"></p>
+                <img src={charles} alt="okoba" className="model"/>
+                <div className="dsc">
+                  <p className="name">Charles Okoba</p>
+                </div>
+              </section>
+              <section className="slider">
+                <p className="ben" ></p>
+                <img src={jack} alt="oyugi" className="model"/>
+                <div className="dsc">
+                  <p className="name">Jack Oyugi</p>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div className="controls">
+            <span className="arrow prev">Prev</span>
+            <span className="arrow next">Next</span>
+          </div>
 
           <p>
             Vestibulum ultrices risus velit, sit amet blandit massa auctor sit

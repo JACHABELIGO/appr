@@ -2013,3 +2013,89 @@
 			}
 		}
 	}
+
+	.team {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.tbox {
+		width: 200px;
+		height:250px;
+		border-radius: 10px;
+		box-shadow: 2px 10px 12px rgba(0,0,0, .5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		box-sizing: border-box;
+		margin: 20px 10px;
+	}
+	.model {
+		width: 200px;
+		max-height:100%;
+		max-width: 100%;
+	}
+
+	.dsc {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.dsc p {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-weight: bold;
+		// color:
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.team {
+		width: 20%;
+		margin: 20px 10px;
+		height: 300px;
+	}
+
+	.team .carousel {
+		width: 30%;
+		height: 100%;
+		border: 2px;
+		border-radius: 3px;
+		display: flex;
+		justify-content: flex-start;
+		position: relative;
+	}
+
+	.team .carousel .slider {
+		display: flex;
+		height: 100%;
+		width: 500%;
+		flex-shrink: 0;
+	}
+
+	.team .carousel .slider section{
+		flex-basis: 20%;
+		width: 20%;
+		flex-shrink: 0;
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.arrow {
+		position: absolute;
+		top: 10px;
+	}
+
+	.arrow.prev {
+		left: 10px;
+	}
+
+	.arrow.next {
+		right: 10px;
+	}
