@@ -1,14 +1,13 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-// import lightslider from '../assets/sass/lightslider.css'
-// import slider from '../assets/sass/lightslider'
+import Carousel from 'react-bootstrap/Carousel'
 
 import ben from '../assets/images/ben.jpeg';
 import okuro from '../assets/images/okuro.jpg';
 import linda from '../assets/images/Linda.jpg';
-import charles from '../assets/images/charles.jpg';
-import jack from '../assets/images/jack.jpg';
+// import charles from '../assets/images/charles.jpg';
+// import jack from '../assets/images/jack.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -24,11 +23,11 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Team</h3>
-          <div className="team">
+          {/* <div className="team">
             <div className="carousel">
-              <section className="slider">
-                <p className="ben" ></p>
-                <img src={ben} alt="mwangi" className="model"/>
+              <section className="slider"> 
+              <p className="ben" ></p>
+                <img src={ben} alt="mwangi" className= "model"/>
                 <div className="dsc">
                   <p className="name">Ben Ruwel </p>
                 </div>
@@ -62,12 +61,44 @@ const IndexPage = () => (
                 </div>
               </section>
             </div>
-          </div>
+          </div> */}
 
-          <div className="controls">
+          {/* <div className="controls">
             <span className="arrow prev">Prev</span>
             <span className="arrow next">Next</span>
-          </div>
+          </div> */}
+
+          <Carousel>
+            <Carousel.Item interval={1000}>
+              <img className="w-32 h-32 rounded-full" src={ben} alt="ben"/>
+              <Carousel.Caption>
+                <h3>Ben Ruwel</h3>
+                <p>Software Developer</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={okuro}
+                alt="okuro"
+              />
+              <Carousel.Caption>
+                <h3>Gideon Okuro</h3>
+                <p>Software Developer</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={linda}
+                alt="linda"
+              />
+              <Carousel.Caption>
+                <h3>Linda Tonui</h3>
+                <p>Software Developer</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
 
           <p>
             Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
