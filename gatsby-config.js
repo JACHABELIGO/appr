@@ -1,4 +1,5 @@
 const config = require('./config');
+const tailwindConfig = require("./tailwind.config");
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -21,5 +22,17 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [
+          require('tailwindcss')(tailwindConfig),
+          require('autoprefixer'),
+          ...(process.env.NODE_ENV  ≡ 'production'
+          ? [require('cssnano')]
+          :[]),
+        ]
+      }
+    }
   ],
 };

@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import config from '../../config';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import ContactForm from '../components/ContactForm';
