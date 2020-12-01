@@ -22,22 +22,22 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Team</h3>
+          <h2>Team</h2>
          
           <Carousel>
             <Carousel.Item interval={1000}>
             <figure class="bg-gray-100 rounded-xl p-8">
-                 <img class="w-32 h-32 rounded-full mx-auto" src={ben} alt="" width="384" height="512"/>
+                 <img class="w-32 h-32 rounded-full mx-auto" src={ben} alt="" width="404" height="532"/>
                  <div class="pt-6 text-center space-y-4">
                    <blockquote>
-                     <p class="text-lg font-semibold">
+                     <p class="text-lg text-black font-semibold">
                        “Tailwind CSS is the only framework that I've seen scale 
                        on large teams. It’s easy to customize, adapts to any design,
                        and the build size is tiny.”
                       </p>
                     </blockquote>
                     <figcaption class="font-medium">
-                      <div class="text-cyan-600">
+                      <div class="text-black">
                         Ben Ruwel
                       </div>
                     <div class="text-gray-500">
@@ -49,17 +49,17 @@ const IndexPage = () => (
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                <figure class="bg-gray-100 rounded-xl p-8">
-                 <img class="w-32 h-32 rounded-full mx-auto" src={okuro} alt="" width="384" height="512"/>
+                 <img class="w-32 h-32 rounded-full mx-auto" src={okuro} alt="" width="404" height="532"/>
                  <div class="pt-6 text-center space-y-4">
                    <blockquote>
-                     <p class="text-lg font-semibold">
+                   <p class="text-lg text-black font-semibold">
                        “Tailwind CSS is the only framework that I've seen scale 
                        on large teams. It’s easy to customize, adapts to any design,
                        and the build size is tiny.”
                       </p>
                     </blockquote>
                     <figcaption class="font-medium">
-                      <div class="text-cyan-600">
+                      <div class="text-black">
                         Gideon Okuro
                       </div>
                     <div class="text-gray-500">
@@ -71,17 +71,17 @@ const IndexPage = () => (
             </Carousel.Item>
             <Carousel.Item>
             <figure class="bg-gray-100 rounded-xl p-8">
-                 <img class="w-32 h-32 rounded-full mx-auto" src={linda} alt="" width="384" height="512"/>
+                 <img class="w-32 h-32 rounded-full mx-auto" src={linda} alt="" width="404" height="532"/>
                  <div class="pt-6 text-center space-y-4">
                    <blockquote>
-                     <p class="text-lg font-semibold">
+                   <p class="text-lg text-black font-semibold">
                        “Tailwind CSS is the only framework that I've seen scale 
                        on large teams. It’s easy to customize, adapts to any design,
                        and the build size is tiny.”
                       </p>
                     </blockquote>
                     <figcaption class="font-medium">
-                      <div class="text-cyan-600">
+                      <div class="text-black">
                         Linda Tonui
                       </div>
                     <div class="text-gray-500">
@@ -93,17 +93,17 @@ const IndexPage = () => (
             </Carousel.Item>
             <Carousel.Item>
             <figure class="bg-gray-100 rounded-xl p-8">
-                 <img class="w-32 h-32 rounded-full mx-auto" src={charles} alt="" width="384" height="512"/>
+                 <img class="w-32 h-32 rounded-full mx-auto" src={charles} alt="" width="404" height="532"/>
                  <div class="pt-6 text-center space-y-4">
                    <blockquote>
-                     <p class="text-lg font-semibold">
+                   <p class="text-lg text-black font-semibold">
                        “Tailwind CSS is the only framework that I've seen scale 
                        on large teams. It’s easy to customize, adapts to any design,
                        and the build size is tiny.”
                       </p>
                     </blockquote>
                     <figcaption class="font-medium">
-                      <div class="text-cyan-600">
+                      <div class="text-black">
                         Charles Okoba
                       </div>
                     <div class="text-gray-500">
@@ -115,17 +115,17 @@ const IndexPage = () => (
             </Carousel.Item>
             <Carousel.Item>
             <figure class="bg-gray-100 rounded-xl p-8">
-                 <img class="w-32 h-32 rounded-full mx-auto" src={jack} alt="" width="384" height="512"/>
+                 <img class="w-32 h-32 rounded-full mx-auto" src={jack} alt="" width="404" height="532"/>
                  <div class="pt-6 text-center space-y-4">
                    <blockquote>
-                     <p class="text-lg font-semibold">
+                   <p class="text-lg text-black font-semibold">
                        “Tailwind CSS is the only framework that I've seen scale 
                        on large teams. It’s easy to customize, adapts to any design,
                        and the build size is tiny.”
                       </p>
                     </blockquote>
                     <figcaption class="font-medium">
-                      <div class="text-cyan-600">
+                      <div class="text-black">
                         Jack Oyugi
                       </div>
                     <div class="text-gray-500">
@@ -137,39 +137,23 @@ const IndexPage = () => (
             </Carousel.Item>
           </Carousel>
 
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna,
-            sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere
-            leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse
-            id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
-
           <hr />
 
-          <h4>Feugiat aliquam</h4>
-          <p>
-            Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-            varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-            tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-            tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-            erat diam, tempus aliquet erat.
-          </p>
+          <h2>Industries</h2>
+          <p class="text-black"> Appr brings the best from the software world to your industry.
+            We can help you build impactful software solutions for your industry faster than ever before.</p>
 
-          <p>
-            Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus
-            rutrum cursus velit, eget condimentum nunc blandit vel. In at
-            pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget,
-            fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra
-            commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim
-            vel, posuere finibus justo. Vivamus facilisis maximus nibh quis
-            pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum.
-            Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
+          <p class="text-black">
+            We have had experience working in projects from these industries:
+            <br/>
+            <div class="text-black">
+              <ul>
+                <li class="text-black">Healthcare</li>
+                <li class="text-black">Education</li>
+                <li class="text-black">Construction</li>
+                <li class="text-black">Agriculture</li>
+              </ul>           
+            </div>
           </p>
         </div>
       </section>
