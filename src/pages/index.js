@@ -9,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import ContactForm from '../components/ContactForm';
 import mobile from '../assets/images/mobile.jpg'
