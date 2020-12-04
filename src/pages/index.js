@@ -1,18 +1,21 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
 
 import config from '../../config';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import ContactForm from '../components/ContactForm';
 import mobile from '../assets/images/mobile.jpg'
 import web from '../assets/images/web.jpg'
 import dt from '../assets/images/dt.jpg'
 import uiux from '../assets/images/uiux.jpg'
-import consult from '../assets/images/consult.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -49,23 +52,6 @@ const IndexPage = () => (
             We started our journey in 2020 and all along our aim is to be a visionary and a reliable software engineering partner for you.
           </p>
         </header>
-        {/* <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Tiehub</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul> */}
       </div>
     </section>
 
@@ -77,87 +63,77 @@ const IndexPage = () => (
             Give us a problem we'll provide a solution for it.
           </p>
         </header>
-        <div className="container">
-            <div className="box">
-              <div className="imgBox">
-                <img src={mobile}/>
-              </div>
-              <div className="details">
-                <div className="content">
-                  <h3>MOBILE DEVELOPMENT</h3>
-                  <p>
-                    We will create an impactful mobile app that fits your brand and industry within a shorter time frame.
-                  </p>
-                </div>
-              </div>
-            </div>
 
-            <div className="box">
-              <div className="imgBox">
-                <img src={web}/>
-              </div>
-              <div className="details">
-                <div className="content">
-                  <h3>WEB DEVELOPMENT</h3>
-                  <p>
-                    Our bold design style & use of standards-based markup code combine to produce websites that boast exceptional search engine result positions & superior visitor loyalty.
-                  </p>
+        <Container fluid="md" class= "flex justify-center">
+          <Row>
+            <Col>
+              <div className="box">
+                <div className="imgBox">
+                  <img src={mobile} alt="mobile development"/>
+                </div>
+                <div className="details">
+                  <div className="content">
+                    <h3>MOBILE DEVELOPMENT</h3>
+                    <p>
+                      We will create an impactful mobile app that fits your brand and industry within a shorter time frame.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Col>
 
-            <div className="box">
-              <div className="imgBox">
-                <img src={consult}/>
-              </div>
-              <div className="details">
-                <div className="content">
-                  <h3>IT CONSULTING</h3>
-                  <p>
-                    Our software development team is equiped with niche skills and deep expertise to ensure your digital satisfaction.
-                  </p>
+            <Col>
+              <div className="box">
+                <div className="imgBox">
+                  <img src={web} alt="web development"/>
+                </div>
+                <div className="details">
+                  <div className="content">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>
+                      Our bold design style & use of standards-based markup code combine to produce websites that boast exceptional search engine result positions & superior visitor loyalty.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          
-            <div className="box">
-              <div className="imgBox">
-                <img src={uiux}/>
-              </div>
-              <div className="details">
-                <div className="content">
-                  <h3>UI/UX DESIGN</h3>
-                  <p>
-                    Build the product you need on time with an experienced team that uses clear and effective design processes.
-                  </p>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container fluid="md" class= "flex justify-center">
+          <Row>
+            <Col>
+              <div className="box">
+                <div className="imgBox">
+                  <img src={uiux} alt="UI/UX Design"/>
+                </div>
+                <div className="details">
+                  <div className="content">
+                    <h3>UI/UX DESIGN</h3>
+                    <p>
+                      Build the product you need on time with an experienced team that uses clear and effective design processes.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-                  
-            <div className="box">
-              <div className="imgBox">
-                <img src={dt}/>
-              </div>
-              <div className="details">
-                <div className="content">
-                  <h3>Digital Transformation</h3>
-                  <p>
-                    Our expertise, platforms, and skills allow us to deliver superior IT transformation services tailored to stay ahead of evolving market demands.
-                  </p>
+            </Col>
+            <Col>
+              <div className="box">
+                <div className="imgBox">
+                  <img src={dt} alt="digital transformation"/>
+                </div>
+                <div className="details">
+                  <div className="content">
+                    <h3>Digital Transformation</h3>
+                    <p>
+                      Our expertise, platforms, and skills allow us to deliver superior IT transformation services tailored to stay ahead of evolving market demands.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-          {/* </div> */}
-          {/* <li className="box">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li> */}
-          {/* </ul> */}
-          </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </section>
 
