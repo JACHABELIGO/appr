@@ -10,5 +10,6 @@ export default function SideBar({ fullMenu }) {
         <Nav onMenuToggle={() => toggleHeader(!headerOpen)} />
       </div>
     </header>
+    
   );
 }

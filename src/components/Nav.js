@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import logo from '../assets/img/logo.png';
 
 export default function Nav({ onMenuToggle = () => {} }) {
@@ -23,13 +24,13 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Elements">Services</Link>
+                <AnchorLink href="#three">Services</AnchorLink >
               </li>
               <li>
                 <Link to="/Company">Company</Link>
               </li>
               <li>
-                <Link to="/contact">Contact us</Link>
+              <AnchorLink href="#cta">Contact us</AnchorLink>
               </li>
               
             </ul>
